@@ -1,0 +1,12 @@
+CREATE FUNCTION fn_TinhDiemTB (@MaSV INT)
+RETURNS FLOAT
+AS
+BEGIN
+    DECLARE @DTB FLOAT;
+
+    SELECT @DTB = AVG([Diem])
+    FROM [Diem]
+    WHERE [MaSV] = @MaSV;
+
+    RETURN @DTB;
+END;

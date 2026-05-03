@@ -1,0 +1,9 @@
+CREATE PROCEDURE sp_TinhDTB
+    @MaSV INT,
+    @DTB FLOAT OUTPUT
+AS
+BEGIN
+    SELECT @DTB = AVG(Diem)
+    FROM Diem
+    WHERE MaSV = @MaSV;
+END;

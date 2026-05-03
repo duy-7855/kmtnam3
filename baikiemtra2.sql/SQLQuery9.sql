@@ -1,0 +1,1 @@
+SELECT * FROM dbo.fn_SinhVienDiemCao(8);

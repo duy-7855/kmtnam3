@@ -1,0 +1,1 @@
+SELECT dbo.fn_TinhDiemTB(1) AS DiemTrungBinh;
