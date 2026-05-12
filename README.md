@@ -14,11 +14,11 @@ Chủ đề: Quản lý sinh viên
 
 Lệnh SQL:
 
-CREATE DATABASE QuanLySinhVien_K123456789;
+CREATE DATABASE QuanLySinhVien_K235480106010;
 
 GO
 
-USE QuanLySinhVien_K123456789;
+USE QuanLySinhVien_K235480106010;
 
 GO
 <img width="1909" height="1020" alt="Screenshot 2026-05-03 114142" src="https://github.com/user-attachments/assets/7e356459-cfcc-4b50-89ac-3b78b0ca57bb" />
